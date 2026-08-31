@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-v30-latin-regular-CIMKXMQI.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-v30-latin-600-CjtsKS3e.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-v30-latin-700-BYRy5CoC.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --bg-dark-navy: #192434;
+  --bg-darker-navy: #131b26;
+  --bg-gray: #e7e8eb;
+  --accent-blue: #3d7cc9;
+  --text-main: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.7);
+  --text-dark: #333333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-dark-navy);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--accent-blue);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #2b60a3;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 4rem;
+}
+
+/* Sections */
+section {
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+/* Footer banner transition */
+.footer-transition {
+  height: 400px;
+  background: linear-gradient(rgba(19, 27, 38, 0.7), rgba(19, 27, 38, 0.9)), url('/images/footer-bg.jpg') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+.footer-transition h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  max-width: 800px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8e9ed;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18273A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f1a26;
+}
