@@ -18,13 +18,15 @@
 }
 
 :root {
-  --bg-dark-navy: #192434;
-  --bg-darker-navy: #131b26;
-  --bg-gray: #e7e8eb;
-  --accent-blue: #3d7cc9;
-  --text-main: #ffffff;
+  --bg-dark-navy: #18273A;
+  --bg-darker-navy: #18273A;
+  --bg-gray: #EAEBEC;
+  --accent-blue: #3D6898;
+  --text-main: #FFFFFF;
   --text-muted: rgba(255, 255, 255, 0.7);
-  --text-dark: #333333;
+  --text-dark: #18273A;
+  --text-accent: #3D6898;
+  --text-muted-dark: #2C4059;
 }
 
 * {
