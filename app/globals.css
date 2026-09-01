@@ -52,9 +52,8 @@ a {
   background-color: var(--accent-blue);
   color: white;
   padding: 0.8rem 1.5rem;
-  border-radius: 4px;
+  border-radius: 0px;
   font-weight: 600;
-  text-transform: uppercase;
   font-size: 0.9rem;
   transition: background-color 0.3s;
 }
@@ -88,8 +87,8 @@ section {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 4rem;
+  margin: auto;
+  padding: 0 1rem;
 }
 
 .grid {
@@ -113,6 +112,67 @@ section {
   max-width: 800px;
 }
 
+/* Stats Card Hover Effect */
+.stat-card {
+  flex: 1;
+  padding: 3rem 2.5rem;
+  background-color: #f3f4f6; /* Very light gray/white */
+  border-right: 1px solid #d1d5db;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: background-color 0.3s ease;
+  height: 250px;
+}
+.stat-card:last-child {
+  border-right: none;
+}
+.stat-card .stat-number {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #18273A;
+  line-height: 1;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.stat-card .stat-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3D6898;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  bottom: 2.5rem;
+}
+.stat-card:hover .stat-number {
+  transform: translateY(-20px);
+}
+.stat-card:hover .stat-text {
+  opacity: 1;
+}
+
+@keyframes slideDownReveal {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes wipeDown {
+  0% { clip-path: inset(0 0 100% 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+.animate-slide-down {
+  animation: wipeDown 0.2s ease-out forwards;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
@@ -128,4 +188,9 @@ section {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #0f1a26;
+}
+
+/* Navigation */
+.nav-link:hover {
+  color: #3b82f6 !important;
 }
