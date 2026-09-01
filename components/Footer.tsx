@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer style={{ position: 'relative', zIndex: 10, backgroundColor: '#1e293b', color: '#94a3b8', padding: '6rem 2rem 2rem', fontSize: '0.85rem' }}>
-      <div className="container" style={{ maxWidth: '1800px', margin: '0 auto', padding: 0 }}>
+      <div className="container" style={{ maxWidth: '1900px', margin: '0 auto', padding: '0rem' }}>
         
         {/* Top Section */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr 1fr', gap: '4rem', marginBottom: '4rem' ,}}>
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Address */}
-          <div style={{ textAlign: 'right' }}>
+          <div style={{paddingLeft: '20rem', textAlign: 'left' }}>
             <p style={{ color: '#fff', lineHeight: '1.6' }}>
               1410 Broadway, 8th Floor,<br/>
               New York, NY 10018
@@ -83,9 +83,9 @@ export default function Footer() {
               Follow us on our Social network Accounts on the web:
             </p>
             <div style={{ display: 'flex', gap: '1.5rem',  alignItems: 'left' }}>
-              <span style={{ color: '#fff', fontSize: '1.2rem',marginLeft: '20rem', fontWeight: 600, cursor: 'pointer' }}>in</span>
+              <span style={{ color: '#fff', fontSize: '1rem',marginLeft: '20rem', fontWeight: 600, cursor: 'pointer' }}>in</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ cursor: 'pointer' }}><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              <span style={{ color: '#fff', fontSize: '1.2rem', fontWeight: 600, cursor: 'pointer' }}>f</span>
+              <span style={{ color: '#fff', fontSize: '1rem', fontWeight: 600, cursor: 'pointer' }}>f</span>
             </div>
           </div>
         </div>

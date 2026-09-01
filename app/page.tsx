@@ -4,7 +4,6 @@ import Hero from '../components/Hero';
 import BrandSection from '../components/BrandSection';
 import VideoBanner from '../components/VideoBanner';
 import WholesaleSection from '../components/WholesaleSection';
-import FooterBanner from '../components/FooterBanner';
 
 export default function Home() {
   return (
@@ -16,8 +15,6 @@ export default function Home() {
       <VideoBanner />
 
       <WholesaleSection />
-
-      <FooterBanner />
     </main>
   );
 }
