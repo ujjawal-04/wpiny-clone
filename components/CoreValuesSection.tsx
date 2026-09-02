@@ -10,15 +10,15 @@ export default function CoreValuesSection() {
   // Content for each tab
   const tabContent = {
     quality: {
-      image: '/images/tabs-bg.jpg',
+      image: '/images/about/tabs-bg.jpg',
       desc: 'Our in-house teams oversee every\nstage, from fabric and material\ntesting to quality audits, ensuring\nevery product meets brand\nexpectations before it hits the\nshelves.',
     },
     integrity: {
-      image: '/images/tabs-bg-2.jpg',
+      image: '/images/about/tabs-bg-2.jpg',
       desc: 'We do what we say, providing top-quality products and services on time based on transparency and ethical practices across our global supply chain. ',
     },
     innovation: {
-      image: '/images/Rectangle-156.jpg',
+      image: '/images/about/Rectangle-156.jpg',
       desc: 'Our teams bring fresh ideas, turning market shifts into opportunities and doing what we do best: serving real-world needs.',
     }
   };

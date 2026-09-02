@@ -9,15 +9,15 @@ export default function LeadershipAndPartnerships() {
   // Content for each tab
   const tabContent = {
     growth: {
-      image: '/images/tabs-bg-2.jpg',
+      image: '/images/about/tabs-bg-2.jpg',
       desc: "We acquire great brands and team up with strong partners, entering new markets and bringing top quality to customers everywhere. ",
     },
     collaboration: {
-      image: '/images/Rectangle-156.jpg',
+      image: '/images/about/Rectangle-156.jpg',
       desc: "We believe strong partnerships start with strong values.\n \nThat’s why we lead with integrity, innovate \nfearlessly, and never compromise on quality.",
     },
     innovation: {
-      image: '/images/tabs-bg.jpg',
+      image: '/images/about/tabs-bg.jpg',
       desc: "We believe strong partnerships start with strong values.\n \nThat’s why we lead with integrity, innovate \nfearlessly, and never compromise on quality.",
     }
   };
