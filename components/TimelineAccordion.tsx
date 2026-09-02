@@ -12,7 +12,7 @@ export default function TimelineAccordion() {
       subtitle: 'Our Story',
       shortText: 'Starting with a few second-hand sewing machines, two rooms, and a dream to make affordable footwear for people..',
       fullText: 'Starting with a few second-hand sewing machines, two rooms, and a dream to make affordable footwear for people, Jack Mizrahi founded Wiesner Products in 1971. By 1988, his products were on shelves in stores all over America. Bringing his son Charles on board in 1987, the impact grew further. What started as a local effort became a global presence. ',
-      img: '/images/panel-1.jpg',
+      img: '/images/about/panel-1.jpg',
       align: 'right' // Text on right, gradient on right
     },
     {
@@ -21,7 +21,7 @@ export default function TimelineAccordion() {
       subtitle: '',
       shortText: 'We specialize in acquiring key brands that align with our values and expand our capabilities. The goal? Strengthening our global presence and serving the diverse needs of our..',
       fullText: 'We specialize in acquiring key brands that align with our values and expand our capabilities. The goal? Strengthening our global presence and serving the diverse needs of our customers. ',
-      img: '/images/panel-2.jpg',
+      img: '/images/about/panel-2.jpg',
       align: 'left' // Text on left, gradient on left
     },
     {
@@ -30,7 +30,7 @@ export default function TimelineAccordion() {
       subtitle: '',
       shortText: 'From a small workshop, our journey has taken us to over 20 countries around the world, a team of 1,000+ dedicated employees, and a growing base of loyal customers.',
       fullText: 'From a small workshop, our journey has taken us to over 20 countries around the world, a team of 1,000+ dedicated employees, and a growing base of loyal customers.',
-      img: '/images/panel-3.jpg',
+      img: '/images/about/panel-3.jpg',
       align: 'right' // Text on right, gradient on right
     }
   ];

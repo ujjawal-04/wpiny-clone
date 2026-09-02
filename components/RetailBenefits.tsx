@@ -6,17 +6,17 @@ export default function RetailBenefits() {
     { 
       title: 'Innovation', 
       desc: 'Inspired by innovative concepts, our products meet the latest customer demands and attract more buyers.', 
-      img: '/images/innovation-img.jpg' 
+      img: '/images/retailer/innovation-img.jpg' 
     },
     { 
       title: 'Efficiency', 
       desc: 'Wiesner partnerships stand for fast production, adaptable inventory options, and reliable order delivery.', 
-      img: '/images/efficiency-img.jpg' 
+      img: '/images/retailer/efficiency-img.jpg' 
     },
     { 
       title: 'Global Reach', 
       desc: 'Our wide network helps you grow in local, regional, and international markets.', 
-      img: '/images/global-reach-img.jpg' 
+      img: '/images/retailer/global-reach-img.jpg' 
     }
   ];
 

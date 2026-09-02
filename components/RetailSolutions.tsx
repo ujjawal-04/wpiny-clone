@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 export default function RetailSolutions() {
   const types = [
-    { title: 'Mass Market', img: '/images/mass-market-img.jpg' },
-    { title: 'Luxury', img: '/images/luxury-img.jpg' },
-    { title: 'Online', img: '/images/online-img.jpg' },
-    { title: 'Boutique', img: '/images/boutique-img.jpg' },
-    { title: 'Department Store', img: '/images/department-store-img.jpg' },
-    { title: 'Specialty Store', img: '/images/specialty-store-img.jpg' }
+    { title: 'Mass Market', img: '/images/retailer/mass-market-img.jpg' },
+    { title: 'Luxury', img: '/images/retailer/luxury-img.jpg' },
+    { title: 'Online', img: '/images/retailer/online-img.jpg' },
+    { title: 'Boutique', img: '/images/retailer/boutique-img.jpg' },
+    { title: 'Department Store', img: '/images/retailer/department-store-img.jpg' },
+    { title: 'Specialty Store', img: '/images/retailer/specialty-store-img.jpg' }
   ];
 
   const whyPartner = [

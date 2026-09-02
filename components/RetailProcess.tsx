@@ -6,17 +6,17 @@ export default function RetailProcess() {
     { 
       title: '1 – Apply', 
       desc: 'Submit your partnership request, listing your business, market reach, and retail objectives.', 
-      img: '/images/apply-img.jpg' 
+      img: '/images/retailer/apply-img.jpg' 
     },
     { 
       title: '2 – Get Approved', 
       desc: "We'll review your application and schedule a meeting to discuss opportunities, requirements, and mutual benefits.", 
-      img: '/images/get-approved-img.jpg' 
+      img: '/images/retailer/get-approved-img.jpg' 
     },
     { 
       title: '3 – Start Selling', 
       desc: 'Once approved, receive comprehensive onboarding, access to our retail support system, and ongoing partnership assistance.', 
-      img: '/images/start-selling-img.jpg' 
+      img: '/images/retailer/start-selling-img.jpg' 
     }
   ];
 
