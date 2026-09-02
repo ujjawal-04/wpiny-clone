@@ -46,8 +46,12 @@ export default function Hero() {
           One partner for design, sourcing, and delivery – we make your vision a reality
         </p>
         <div style={{ display: 'flex', gap: '1rem' }}>
+          <Link href="/contact">
           <button className="btn-primary" style={{ border: 'none', cursor: 'pointer', padding: '10px 1.1em', fontSize: '1.2rem', fontWeight: 300 }}>Start Your Journey</button>
-          <button className="btn-primary" style={{ backgroundColor: 'transparent', border: '1px solid #fff', cursor: 'pointer', padding: '10px 1.1em', fontSize: '1.2rem', fontWeight: 300 }}>Explore Our Categories</button>
+         </Link>
+         <Link href="/divisions">
+           <button className="btn-primary" style={{ backgroundColor: 'transparent', border: '1px solid #fff', cursor: 'pointer', padding: '10px 1.1em', fontSize: '1.2rem', fontWeight: 300 }}>Explore Our Categories</button>
+         </Link>
         </div>
       </div>
     </section>

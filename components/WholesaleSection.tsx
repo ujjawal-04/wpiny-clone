@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function WholesaleSection() {
@@ -43,9 +44,11 @@ export default function WholesaleSection() {
             We turn concepts into best-selling products<br/>through strategic sourcing and innovation.
           </p>
           <div style={{ textAlign: 'right' }}>
-            <button className="btn-primary" style={{ padding: '12px 1.5em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: '#3d6898', color: '#fff' }}>
-              Find Out More
-            </button>
+            <Link href="/about">
+              <button className="btn-primary" style={{ padding: '12px 1.5em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: '#3d6898', color: '#fff' }}>
+                Find Out More
+              </button>
+            </Link>
           </div>
         </div>
 

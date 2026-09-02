@@ -43,7 +43,9 @@ export default function BrandSection() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: 600, lineHeight: '1.4', color: '#fff' }}>Exclusive Licensed Brands, <br/>Trusted by Major Retailers</h2>
           <p style={{ color: 'var(--text-main)', fontSize: '1.2rem', lineHeight: '1.6' }}>We partner with globally recognized brands to<br/>bring licensed apparel, accessories, and home<br/>goods to market.</p>
           <div style={{ textAlign: 'right' }}>
-             <button className="btn-primary" style={{ padding: '15px 0.8em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: 'var(--accent-blue)', color: '#fff' }}>Discover our Licenses</button>
+            <Link href="/brands">
+              <button className="btn-primary" style={{ padding: '15px 0.8em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: 'var(--accent-blue)', color: '#fff' }}>Discover our Licenses</button>
+            </Link>
           </div>
         </div>
       </section>
@@ -55,7 +57,9 @@ export default function BrandSection() {
           <h2 style={{ fontSize: '1.5rem', fontWeight: 600, lineHeight: '1.4', color: '#fff' }}>Our Portfolio of Brands Delivering<br/>Tailored Products & Solutions</h2>
           <p style={{ color: 'var(--text-main)', fontSize: '1.2rem', lineHeight: '1.6' }}>15 divisions covering multiple industries—<br/>designed for efficiency, speed, and scalability.</p>
           <div style={{ textAlign: 'right' }}>
-           <button className="btn-primary" style={{ padding: '15px 0.8em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: 'var(--accent-blue)', color: '#fff' }}>Explore Our Divisions</button>
+            <Link href="/divisions">
+              <button className="btn-primary" style={{ padding: '15px 0.8em', fontSize: '1rem', fontWeight: 400, border: 'none', cursor: 'pointer', backgroundColor: 'var(--accent-blue)', color: '#fff' }}>Explore Our Divisions</button>
+            </Link>
           </div>
         </div>
       </section>

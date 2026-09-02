@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function VideoBanner() {
   return (
     <section style={{ position: 'relative', height: '100vh', display: 'flex', alignItems: 'center', zIndex: 0, clipPath: 'inset(0)' }}>
@@ -24,9 +26,11 @@ export default function VideoBanner() {
         <p style={{ fontSize: '1rem', color: '#d1d5db', maxWidth: '400px', marginBottom: '2rem', lineHeight: '1.6' }}>
           End-to-end expertise to bring your vision<br/>to market faster and more efficiently.
         </p>
-        <button className="btn-primary" style={{ border: 'none', cursor: 'pointer', padding: '12px 1em', fontWeight: 400, fontSize: '1.2rem', backgroundColor: '#3d6898', color: '#fff' }}>
-          Let's Talk
-        </button>
+        <Link href="/contact">
+          <button className="btn-primary" style={{ border: 'none', cursor: 'pointer', padding: '12px 1em', fontWeight: 400, fontSize: '1.2rem', backgroundColor: '#3d6898', color: '#fff' }}>
+            Let's Talk
+          </button>
+        </Link>
       </div>
     </section>
   );

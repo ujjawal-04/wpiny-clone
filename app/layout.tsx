@@ -5,8 +5,11 @@ import type { Metadata } from 'next';
 import FooterBanner from '@/components/FooterBanner';
 
 export const metadata: Metadata = {
-  title: 'Wiesner Products | Private Label Manufacturer',
+  title: 'Private Label Solutions for Retailers | Wiesner Wholesale',
   description: 'From Factory Floor to Store Door — A Manufacturer You Can Trust',
+  icons: {
+    icon: '/images/header/image-9.png',
+  },
 };
 
 export default function RootLayout({
